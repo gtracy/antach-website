@@ -1,11 +1,10 @@
 application: antachsite-hrd
-version: 1
-runtime: python
+version: migrate-python27
+runtime: python27
 api_version: 1
-
+threadsafe: true
 
 handlers:
-
 
 - url: /img
   static_dir: img
